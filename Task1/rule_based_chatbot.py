@@ -1,10 +1,14 @@
-print("Chatbot: Hello! Type 'bye' to exit.")
+print("Chatbot: Hello!,I'm Your AI Assistant.")
+print("Type 'bye' to exit.")
 
 while True:
     user = input("You: ").lower()
 
-    if user == "hi" or user == "hello":
+    if user == "hi" or user == "hello" or user=="hey":
         print("Chatbot: Hi there!")
+
+    elif user=="who are you":
+        print("Chatbot:I'm you are rule-based chatbot.")
 
     elif user == "how are you":
         print("Chatbot: I am fine. How can I help you?")
@@ -12,8 +16,11 @@ while True:
     elif user == "what is your name":
         print("Chatbot: I am a rule-based chatbot.")
 
+    elif user=="what is ai":
+        print("AI:Artificial Intelligence")
+
     elif user == "bye":
-        print("Chatbot: Goodbye!")
+        print("Chatbot: Goodbye! Have a nice day!")
         break
 
     else:
