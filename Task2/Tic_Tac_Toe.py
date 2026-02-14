@@ -77,7 +77,7 @@ print("Positions are numbered 0 to 8")
 
 while True:
     print_board()
-    position = int(input("Enter your move (0-8): "))
+    position = int(input("Enter your move in (0-8): "))
 
     if board[position] == " ":
         board[position] = "X"
