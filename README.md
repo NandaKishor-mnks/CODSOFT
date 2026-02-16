@@ -40,20 +40,22 @@ To understand AI search algorithms and game strategy.
 
 ---
 
-##Task 4: Recommendation System
+#Movie Recommendation System
 
-A simple recommendation system.
+This is a simple content-based movie recommendation system built using Python and Pandas.
 
-It suggests items based on:
-• User preferences  
-• Similarity techniques  
-• Filtering methods  
+## Features
+- Takes user favorite genre
+- Suggests matching movies
+- Beginner friendly project
 
-Language:
-• Python  
+## Technologies Used
+- Python
+- Pandas
 
-Purpose:
-To understand how real-world recommendation engines work.
+## How to Run
+1. Install pandas: pip install pandas
+2. Run: python recommendation.py
 
 ---
 
